@@ -20,7 +20,7 @@ const Header = () => {
       <div class='float-left'>
         <h1>Markins ICT</h1>
         </div>
-        <div>
+        <div id='place_holder'>
         <a href='/Price' class='align-items-center
         p-3
         text-white' id='place__order'>

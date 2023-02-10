@@ -20,3 +20,15 @@ a:link{
     border: 2px solid var(--color-white) !important;
     border-radius: 10px !important;
 }
+
+#place_holder{
+    animation-name: example !important;
+    animation-duration: 2s !important;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example{
+    from{transform: rotate(10deg);}
+    to{transform: rotate(0deg);}
+}
