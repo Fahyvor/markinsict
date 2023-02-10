@@ -23,8 +23,9 @@ a:link{
 
 #place_holder{
     animation-name: example !important;
-    animation-duration: 2s !important;
+    animation-duration: 1s !important;
     animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 
