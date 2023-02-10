@@ -1,0 +1,78 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#whole{
+    font-size: 4.6rem;
+    font-weight: 700;
+}
+
+#find{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+#protect{
+    border: 5px solid var(--color-bg);  
+    border-radius: 12px; 
+    width: 40vw;
+    text-align: center;
+    background-color: var(--color-bg);
+}
+
+#body-image{
+    width: 80%;
+    aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 1024px) {
+    #body-container{
+        width: 100vw;
+    }
+
+    #whole{
+        font-size: 2.5rem;
+    }
+
+    #find{
+        font-size: 1.5rem;
+    }
+
+    #freelance{
+        font-size: 1rem;
+    }
+
+    #begin{
+        font-size: 1rem;
+    }
+
+    #protect{
+        width: 40vw;
+    }
+
+    #body-image{
+        width: 100%;
+        margin-top: 15% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #body-container{
+        flex-direction: column !important;
+    }
+
+    #whole{
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    #find{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    #protect{
+        width: 85vw;
+    }
+}

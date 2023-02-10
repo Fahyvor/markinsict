@@ -1,0 +1,13 @@
+#serv{
+    border-radius: 10px;
+    box-shadow: 6px 6px rgb(168, 164, 164);
+    padding: 1.5%;
+}
+
+@media screen and (max-width: 768px) {
+    #services-container{
+        flex-direction: column !important;
+        justify-content: end !important;
+        padding-left: 15% !important;
+    }
+}

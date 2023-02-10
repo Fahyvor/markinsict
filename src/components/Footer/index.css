@@ -1,0 +1,9 @@
+#social-media-icon{
+    border: none;
+}
+
+.icons__social{
+    width: 5vw;
+    height: 5vh;
+    aspect-ratio: 1/1;
+}

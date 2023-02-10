@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    #nav-container{
+        display: flex !important;
+        flex-direction: row !important;
+        grid-template-rows: repeat(1, 4fr) !important;
+    }
+
+    #writing{
+        width: 40vw !important;
+    }
+}

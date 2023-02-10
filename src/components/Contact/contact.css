@@ -1,0 +1,39 @@
+form{
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+input{
+    height: 12vh !important;
+    border-radius: 6px !important;
+    border: 3px solid var(--color-bg) !important;
+}
+
+textarea{
+    height: 25vh !important;
+    border: 3px solid var(--color-bg) !important;
+}
+
+select{
+    height: 12vh !important;
+}
+
+button{
+    height: 10vh !important;
+}
+
+#home__icon{
+    position: absolute !important;
+}
+
+@media screen and (max-width: 1024px){
+    #home__icon{
+        position: relative !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #home__icon{
+        position: relative !important;
+    }
+}

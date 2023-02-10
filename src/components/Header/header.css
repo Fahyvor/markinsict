@@ -1,0 +1,22 @@
+head{
+    justify-content: space-between;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+a{
+    border: 2px solid var(--color-white);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+a:link{
+    text-decoration-line: none;
+}
+
+#place__order{
+    border: 2px solid var(--color-white) !important;
+    border-radius: 10px !important;
+}

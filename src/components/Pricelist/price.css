@@ -1,0 +1,33 @@
+#price-list{
+    color: var(--color-bg);
+}
+
+#price{
+    font-weight: 700;
+}
+
+a{
+    border: none;
+}
+
+.btn{
+    background-color: var(--color-bg) !important;
+    color: var(--color-white) !important;
+}
+
+#home{
+    height: 6vh;
+    background-color: var(--color-variant-bg) !important;
+}
+
+#check{
+    color: var(--color-bg);
+}
+
+#price_item{
+    margin-left: -11% !important;
+}
+
+#order_button{
+    margin-left: 8% !important;
+}
