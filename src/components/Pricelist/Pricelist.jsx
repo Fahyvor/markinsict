@@ -12,10 +12,10 @@ const Pricelist = () => {
 
         <div class='btn col-2
         text-bold text-white
-        text-center
         justify-content-center
         align-center' id='home'>
-            <a href='/'><h6 class='text-white'>Home</h6></a>
+            <a href='/' class='text-white
+            text-center' id='home_link'><h6>Home</h6></a>
         </div>
 
         </div>
@@ -27,10 +27,10 @@ const Pricelist = () => {
             <BsFillPatchCheckFill id='check'/>
             </div>
             <div class='col-4' id='price_item'>
-                <h3>Flyer Design</h3>
+                <h4>Flyer Design</h4>
             </div>
             <div class='col-2'>
-                <h3>N3000</h3>
+                <h4>N3000</h4>
             </div>
             <div class='col-2 btn' id='order_button'>
                 <a href='/request__form' class='text-white'>Order</a>
@@ -44,10 +44,10 @@ const Pricelist = () => {
             <BsFillPatchCheckFill id='check'/>
             </div>
             <div class='col-4' id='price_item'>
-                <h3>Banner Design</h3>
+                <h4>Banner Design</h4>
             </div>
             <div class='col-2'>
-                <h3>N3000</h3>
+                <h4>N3000</h4>
             </div>
             <div class='col-2 btn' id='order_button'>
                 <a href='/request__form' class='text-white'>Order</a>
@@ -61,10 +61,10 @@ const Pricelist = () => {
             <BsFillPatchCheckFill id='check'/>
             </div>
             <div class='col-4' id='price_item'>
-                <h3>E-Flyer Design</h3>
+                <h4>E-Flyer Design</h4>
             </div>
             <div class='col-2'>
-                <h3>N3000</h3>
+                <h4>N3000</h4>
             </div>
             <div class='col-2 btn' id='order_button'>
                 <a href='/request__form' class='text-white'>Order</a>
@@ -78,10 +78,10 @@ const Pricelist = () => {
             <BsFillPatchCheckFill id='check'/>
             </div>
             <div class='col-4' id='price_item'>
-                <h3>Shirt Branding</h3>
+                <h4>Shirt Branding</h4>
             </div>
             <div class='col-2'>
-                <h3>N600</h3>
+                <h4>N600</h4>
             </div>
             <div class='col-2 btn' id='order_button'>
                 <a href='/request__form' class='text-white'>Order</a>
@@ -95,10 +95,10 @@ const Pricelist = () => {
             <BsFillPatchCheckFill id='check'/>
             </div>
             <div class='col-4' id='price_item'>
-                <h3>Cap Branding</h3>
+                <h4>Cap Branding</h4>
             </div>
             <div class='col-2'>
-                <h3>N500</h3>
+                <h4>N500</h4>
             </div>
             <div class='col-2 btn' id='order_button'>
                 <a href='/request__form' class='text-white'>Order</a>
@@ -112,10 +112,10 @@ const Pricelist = () => {
             <BsFillPatchCheckFill id='check'/>
             </div>
             <div class='col-4' id='price_item'>
-                <h3>Car Branding</h3>
+                <h4>Car Branding</h4>
             </div>
             <div class='col-2'>
-                <h3>N6000</h3>
+                <h4>N6000</h4>
             </div>
             <div class='col-2 btn' id='order_button'>
                 <a href='/request__form' class='text-white'>Order</a>
@@ -129,10 +129,10 @@ const Pricelist = () => {
             <BsFillPatchCheckFill id='check'/>
             </div>
             <div class='col-4' id='price_item'>
-                <h3>Company Website Design</h3>
+                <h4>Company Website Design</h4>
             </div>
             <div class='col-2'>
-                <h3>N50000</h3>
+                <h4>N50000</h4>
             </div>
             <div class='col-2 btn' id='order_button'>
                 <a href='/request__form' class='text-white'>Order</a>
@@ -146,10 +146,10 @@ const Pricelist = () => {
             <BsFillPatchCheckFill id='check'/>
             </div>
             <div class='col-4' id='price_item'>
-                <h3>School Website Design</h3>
+                <h4>School Website Design</h4>
             </div>
             <div class='col-2'>
-                <h3>N55000</h3>
+                <h4>N55000</h4>
             </div>
             <div class='col-2 btn' id='order_button'>
                 <a href='/request__form' class='text-white'>Order</a>
@@ -163,10 +163,10 @@ const Pricelist = () => {
             <BsFillPatchCheckFill id='check'/>
             </div>
             <div class='col-4' id='price_item'>
-                <h3>E-commerce Website Design</h3>
+                <h4>E-commerce Website Design</h4>
             </div>
             <div class='col-2'>
-                <h3>N60000</h3>
+                <h4>N60000</h4>
             </div>
             <div class='col-2 btn' id='order_button'>
                 <a href='/request__form' class='text-white'>Order</a>

@@ -14,7 +14,6 @@ const Contact = () => {
 
         e.target.reset();
 
-        alert("Request Sent");
     };
 
   return (
@@ -24,7 +23,7 @@ const Contact = () => {
             <AiFillHome color='var(--color-white)' size={50}/>
             </a>
         </div>
-        <form ref={form} onClick={sendEmail} class='container row
+        <form ref={form} onSubmit={sendEmail} class='container row
         align-center gap-4
         justify-content-center
         mx-auto
