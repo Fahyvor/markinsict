@@ -13,6 +13,7 @@ a{
 .btn{
     background-color: var(--color-bg) !important;
     color: var(--color-white) !important;
+    text-align: center !important;
 }
 
 #home{
@@ -30,4 +31,29 @@ a{
 
 #order_button{
     margin-left: 8% !important;
+}
+
+#price__container{
+    gap: 3vw !important;
+}
+
+@media screen and (max-width: 786px){
+    #price_list{
+        font-size: smaller !important;
+    }
+
+    #price_item{
+        width: 30vw !important;
+    }
+
+    #order_button{
+        justify-content: center !important;
+        text-align: center !important;
+        width: 20vw !important;
+    }
+
+    #home{
+        text-align: center !important;
+        width: 15vw !important;
+    }
 }

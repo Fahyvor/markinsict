@@ -6,12 +6,13 @@ const Pricelist = () => {
   return (
     <div class='container-fluid bg-white pt-4 pb-5' id='price-list'>
         <div class='container-fluid row justify-content-center'>
-        <div class=' container-fluid col-5 text-left float-center'>
+        <div class=' container-fluid col-4 text-left float-center'>
             <h1 id='price'>PRICELIST</h1>
         </div>
 
         <div class='btn col-2
         text-bold text-white
+        text-center
         justify-content-center
         align-center' id='home'>
             <a href='/'><h6 class='text-white'>Home</h6></a>
@@ -19,14 +20,13 @@ const Pricelist = () => {
 
         </div>
         {/* PRICES */}
-        <div class='container row justify-content-center
+        <div class='container-fluid row justify-content-center
             align-center
-            mx-auto
-            mt-5'>
+            mt-5' id='price__container'>
             <div class='col-2 align-center'>
             <BsFillPatchCheckFill id='check'/>
             </div>
-            <div class='col-5' id='price_item'>
+            <div class='col-4' id='price_item'>
                 <h3>Flyer Design</h3>
             </div>
             <div class='col-2'>
@@ -37,14 +37,13 @@ const Pricelist = () => {
             </div>
             </div>
 
-            <div class='container row justify-content-center
+            <div class='container-fluid row justify-content-center
             align-center
-            mx-auto
-            mt-5'>
+            mt-5' id='price__container'>
             <div class='col-2 align-center'>
             <BsFillPatchCheckFill id='check'/>
             </div>
-            <div class='col-5' id='price_item'>
+            <div class='col-4' id='price_item'>
                 <h3>Banner Design</h3>
             </div>
             <div class='col-2'>
@@ -55,14 +54,13 @@ const Pricelist = () => {
             </div>
             </div>
 
-            <div class='container row justify-content-center
+            <div class='container-fluid row justify-content-center
             align-center
-            mx-auto
-            mt-5'>
+            mt-5' id='price__container'>
             <div class='col-2 align-center'>
             <BsFillPatchCheckFill id='check'/>
             </div>
-            <div class='col-5' id='price_item'>
+            <div class='col-4' id='price_item'>
                 <h3>E-Flyer Design</h3>
             </div>
             <div class='col-2'>
@@ -73,14 +71,13 @@ const Pricelist = () => {
             </div>
             </div>
 
-            <div class='container row justify-content-center
+            <div class='container-fluid row justify-content-center
             align-center
-            mx-auto
-            mt-5'>
+            mt-5' id='price__container'>
             <div class='col-2 align-center'>
             <BsFillPatchCheckFill id='check'/>
             </div>
-            <div class='col-5' id='price_item'>
+            <div class='col-4' id='price_item'>
                 <h3>Shirt Branding</h3>
             </div>
             <div class='col-2'>
@@ -91,14 +88,13 @@ const Pricelist = () => {
             </div>
             </div>
 
-            <div class='container row justify-content-center
+            <div class='container-fluid row justify-content-center
             align-center
-            mx-auto
-            mt-5'>
+            mt-5' id='price__container'>
             <div class='col-2 align-center'>
             <BsFillPatchCheckFill id='check'/>
             </div>
-            <div class='col-5' id='price_item'>
+            <div class='col-4' id='price_item'>
                 <h3>Cap Branding</h3>
             </div>
             <div class='col-2'>
@@ -109,14 +105,13 @@ const Pricelist = () => {
             </div>
             </div>
 
-            <div class='container row justify-content-center
+            <div class='container-fluid row justify-content-center
             align-center
-            mx-auto
-            mt-5'>
+            mt-5' id='price__container'>
             <div class='col-2 align-center'>
             <BsFillPatchCheckFill id='check'/>
             </div>
-            <div class='col-5' id='price_item'>
+            <div class='col-4' id='price_item'>
                 <h3>Car Branding</h3>
             </div>
             <div class='col-2'>
@@ -127,14 +122,13 @@ const Pricelist = () => {
             </div>
             </div>
 
-            <div class='container row justify-content-center
+            <div class='container-fluid row justify-content-center
             align-center
-            mx-auto
-            mt-5'>
+            mt-5' id='price__container'>
             <div class='col-2 align-center'>
             <BsFillPatchCheckFill id='check'/>
             </div>
-            <div class='col-5' id='price_item'>
+            <div class='col-4' id='price_item'>
                 <h3>Company Website Design</h3>
             </div>
             <div class='col-2'>
@@ -145,14 +139,13 @@ const Pricelist = () => {
             </div>
             </div>
 
-            <div class='container row justify-content-center
+            <div class='container-fluid row justify-content-center
             align-center
-            mx-auto
-            mt-5'>
+            mt-5' id='price__container'>
             <div class='col-2 align-center'>
             <BsFillPatchCheckFill id='check'/>
             </div>
-            <div class='col-5' id='price_item'>
+            <div class='col-4' id='price_item'>
                 <h3>School Website Design</h3>
             </div>
             <div class='col-2'>
@@ -163,14 +156,13 @@ const Pricelist = () => {
             </div>
             </div>
 
-            <div class='container row justify-content-center
+            <div class='container-fluid row justify-content-center
             align-center
-            mx-auto
-            mt-5'>
+            mt-5' id='price__container'>
             <div class='col-2 align-center'>
             <BsFillPatchCheckFill id='check'/>
             </div>
-            <div class='col-5' id='price_item'>
+            <div class='col-4' id='price_item'>
                 <h3>E-commerce Website Design</h3>
             </div>
             <div class='col-2'>
