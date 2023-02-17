@@ -47,7 +47,7 @@ const Contact = () => {
 
             <input type="number" name="quantity" placeholder="0" required />
             <textarea type="message" name="message" placeholder='Additional Details' required />
-            <button type="submit" class='btn'>Send Order</button>
+            <button type="submit" class='btn text-white text-bold'>Send Order</button>
         </form>
     </div>
   )

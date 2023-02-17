@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         <div id='place_holder'>
         <a href='/Price' class='align-items-center
-        p-3
+        p-2
         text-white' id='place__order'>
             Place Order
         </a>

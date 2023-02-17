@@ -33,3 +33,13 @@ a:link{
     from{transform: rotate(10deg);}
     to{transform: rotate(0deg);}
 }
+
+@media screen and (max-width: 768px) {
+    #place__order{
+        padding: 6% !important;
+    }
+
+    #place_holder{
+        width: 30vw !important;
+    }
+}
